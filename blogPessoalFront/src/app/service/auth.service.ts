@@ -10,6 +10,9 @@ import { UserLogin } from '../model/UserLogin';
   providedIn: 'root'
 })
 export class AuthService {
+  atualizar(user: User) {
+    throw new Error('Method not implemented.');
+  }
 
   constructor(
     private http: HttpClient
